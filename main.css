@@ -1,0 +1,31 @@
+.tab-content {
+  display: none; /* Hide all by default */
+}
+
+.tab-content.active {
+  display: block; /* Show active content */
+}
+
+.tab-btn.active {
+  background-color: #01887b75; /* Highlight active button */
+}
+
+.tabButton-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #40e0d0;
+    cursor: pointer;
+}
+
+.tabContent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+
+
