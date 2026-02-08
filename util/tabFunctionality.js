@@ -2,7 +2,7 @@ export const buttons = document.querySelectorAll(".tab-btn");
 export const contents = document.querySelectorAll(".tab-content");
 
 
-export function addTabFunctionality() {
+export function addTabFunctionality(buttons, contents) {
 buttons.forEach((btn) => {
   btn.addEventListener("click", () => {
     const targetId = btn.getAttribute("data-target");

@@ -1,3 +1,7 @@
-import {buttons, contents,  addTabFunctionality} from ".tabFunctionality.js";
+import {
+  buttons,
+  contents,
+  addTabFunctionality,
+} from "./util/tabFunctionality.js";
 
-addTabFunctionality();
+addTabFunctionality(buttons, contents);
